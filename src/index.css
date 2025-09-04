@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer theme{
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  body {
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  p{
+    font-style: italic;
+  }
+  
+}
