@@ -6,7 +6,7 @@ import homes from './homes';
 import NextBtn from './components/NextBtn';
 
 function App() {
-  const [next, setNext] = useState(4);
+  const [next, setNext] = useState(2);
 
   return <div className="relative h-screen w-screen overflow-hidden">
     <NavBar />

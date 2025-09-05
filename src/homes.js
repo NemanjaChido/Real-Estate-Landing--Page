@@ -1,6 +1,6 @@
 const homes = [
     {
-        imageUrl: "/assets/patrick-bohn-79I4fi5nh40-unsplash.jpg",
+        imageUrl: import.meta.env.BASE_URL + "assets/patrick-bohn-79I4fi5nh40-unsplash.jpg",
         title: "Duplex",
         description: "A beautiful duplex in the city center.",
         price: "$300,000",
@@ -10,7 +10,7 @@ const homes = [
         area: "1,500 sqft",
     },
     {
-        imageUrl: "/assets/justin-wolff-7qD-iDyrdHY-unsplash.jpg",
+        imageUrl: import.meta.env.BASE_URL + "assets/justin-wolff-7qD-iDyrdHY-unsplash.jpg",
         title: "Modern Apartment",
         description: "A sleek modern apartment with city views.",
         price: "$450,000",
@@ -20,7 +20,7 @@ const homes = [
         area: "1,200 sqft",
     },
     {
-        imageUrl: "/assets/alejandra-cifre-gonzalez-5nYLmG1m5lw-unsplash.jpg",
+        imageUrl: import.meta.env.BASE_URL + "assets/alejandra-cifre-gonzalez-5nYLmG1m5lw-unsplash.jpg",
         title: "Cozy Cottage",
         description: "A charming cottage in a quiet neighborhood.",
         price: "$250,000",
@@ -30,7 +30,7 @@ const homes = [
         area: "900 sqft",
     },
     {
-        imageUrl: "/assets/florian-schmidinger-b_79nOqf95I-unsplash.jpg",
+        imageUrl: import.meta.env.BASE_URL + "assets/florian-schmidinger-b_79nOqf95I-unsplash.jpg",
         title: "Luxury Villa",
         description: "A stunning villa with a private pool.",
         price: "$1,200,000",
@@ -40,7 +40,7 @@ const homes = [
         area: "3,500 sqft",
     },
     {
-        imageUrl: "/assets/jakub-pabis-yysLuewoWls-unsplash.jpg",
+        imageUrl: import.meta.env.BASE_URL + "assets/jakub-pabis-yysLuewoWls-unsplash.jpg",
         title: "Suburban House",
         description: "A spacious house in a family-friendly suburb.",
         price: "$600,000",
